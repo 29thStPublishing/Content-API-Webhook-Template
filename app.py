@@ -24,6 +24,11 @@ define(
     type=bool
 )
 define(
+    'client_key',
+    default=None,
+    help='Your magazine\'s client key to the API',
+    type=str
+)
    'port',
    default=6666,
    help='The port the app runs on.',
@@ -37,6 +42,7 @@ class App(Application):
         ]
 
         settings = {
+            'client_key': options.client_key,
             'debug': options.dev
         }
 
