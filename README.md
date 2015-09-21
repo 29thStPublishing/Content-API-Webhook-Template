@@ -18,3 +18,4 @@ If you are missing these, please see [Downloading Python](https://wiki.python.or
 3. Create a virtual environment in the project root. The directory named `venv/` is already gitignored, so let's call it that: `virtualenv venv`
 4. Start up virtual environment using the command `source venv/bin/activate` (turn it off with `deactivate`)
 5. With the virtualenv running use the command `pip install -r requirements.txt` to install the dependencies for this app.
+6. `python app.py --dev=True`
