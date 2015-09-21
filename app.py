@@ -29,8 +29,9 @@ define(
     help='Your magazine\'s client key to the API',
     type=str
 )
+define(
    'port',
-   default=6666,
+   default=8888,
    help='The port the app runs on.',
    type=int
 )
